@@ -1,1 +1,4 @@
-_site
+*.*~
+_site/
+.ruby-version
+.ruby-gemset
