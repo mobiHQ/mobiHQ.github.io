@@ -1,0 +1,7 @@
+- name: Kernel M-MOBI
+  description: Kernel do Modelo de Ontologias Baseado em Instâncias
+  url: http://github.com/M-MOBI/Kernel-M-MOBI
+
+- name: Editor M-MOBI
+  description: Editor de Ontologias baseado no M-MOBI
+  url: http://github.com/vinioliveira/Editor-M-MOBI
