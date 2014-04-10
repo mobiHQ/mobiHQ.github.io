@@ -1,11 +1,19 @@
+- name: Hernane Borges
+  email: hernane@domain.com
+  title: Doutor
+  lattes: 
+
 - name: Eduardo Manuel de Freitas Jorge
   email: eduardo@gmail.com
-  title: Doutor    
+  title: Doutor
+  lattes: 6716225567627323   
 
 - name: Uedson Reis
   email: uedsonreis@gmail.com
   title: Doutorando
+  lattes: 0389899535120444
 
 - name: Matheus Andrade da Silva
   email: matheuswcf@gmail.com
   title: Mestrando
+  lattes: 8666868496293759
