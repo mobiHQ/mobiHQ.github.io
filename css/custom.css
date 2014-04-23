@@ -7,3 +7,19 @@ body {
 #page{
     padding-top:30px;
 }
+
+
+/* Documents Page */
+#docs{}
+
+#docs ul{list-style: none;}
+
+div.doc{
+  background-color: #303030;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+div.doc h3{
+  margin-top:10px;
+}

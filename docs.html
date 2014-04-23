@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: page_with_sidebar
 title: M-MOBI - Grupo de Pesquisa
 ---    
     <div id="page" class="container">
         <div class="row">
-            <div id="content" class="col-md-9">
+            <div id="content" class="col-md-8">
               <div class="row">
                 <h1>Produções</h1>
                 <p class="lead">lkklec nckenckenkckeckekcleklc ke</p>
@@ -14,15 +14,21 @@ title: M-MOBI - Grupo de Pesquisa
                     lkklec nckenckenkckeckekcleklc kelkklec nckenckenkckeckekcleklc ke
                 </p>
               </div>
-              <div class="row">
+              <div id="docs" class="row">
                 <h1 id="thesis">Teses</h1>
                 <ul>
                   {% for doc in site.data.thesis %}
-                    <li>Tese de {{ doc.type }}
-                      <ul>
-                        <li>Título: {{ doc.title}}</li>
-                        <li>Autor: {{ doc.author }}</li>
-                      </ul>
+                    <li>
+                      <div class="row doc thesis">
+                        <h3>{{ doc.title }}</h3>
+                        <p>
+                          Tese de {{ doc.type }} <br/>
+                          <span>Autor: </span>{{ doc.author }}<br />
+                          {{ doc.program }} <br />
+                          <span>Orientador: </span> {{ doc.tutor }}<br />
+                          <span>Ano: </span> {{ doc.year }}
+                        </p>
+                      </div>
                     </li>
                   {% endfor %}
                 </ul>
@@ -30,7 +36,14 @@ title: M-MOBI - Grupo de Pesquisa
                 <ul>
                   {% for doc in site.data.tccs %}
                     <li>
-                      {{ doc.title}}
+                      <div class="row doc tcc">
+                        <h3>{{ doc.title }}</h3>
+                        <p>
+                          <span>Autor: </span>{{ doc.author }}<br />
+                          <span>Orientador: </span> {{ doc.tutor }}<br />
+                          {{ doc.origin }} - {{ doc.year }}
+                        </p>
+                      </div>
                     </li>
                   {% endfor %}
                 </ul>
@@ -38,14 +51,17 @@ title: M-MOBI - Grupo de Pesquisa
                 <ul>
                   {% for doc in site.data.articles %}
                     <li>
-                      {{ doc.title}}
+                      <div class="row doc article">
+                        <h3>{{ doc.title }}</h3>
+                        <p>
+                          <span>Autor: </span>{{ doc.author }}<br />
+                          <span>Orientador: </span> {{ doc.tutor }}<br />
+                          <span>Ano: </span> {{ doc.year }}
+                        </p>
+                      </div>
                     </li>
                   {% endfor %}
                 </ul>
               </div>
-            </div>
-            <div id="sidebar" class="col-md-3">
-                Sidebar
-            </div>
-        </div>
-        <hr>
+            </div><!-- end of col-md-8 with left content -->
+            
