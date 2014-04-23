@@ -47,12 +47,12 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Produções <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Teses de Doutorado</a></li>
-                <li><a href="#">Dissertações de Mestrado</a></li>
-                <li><a href="#">Monografias de Graduação</a></li>
+                <li><a href="docs.html#thesis">Teses de Doutorado</a></li>
+                <li><a href="docs.html#thesis">Dissertações de Mestrado</a></li>
+                <li><a href="docs.html#tcc">Monografias de Graduação</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">Outros</li>
-                <li><a href="#">Artigos Publicados</a></li>
+                <li><a href="docs.html#article">Artigos Publicados</a></li>
                 <li><a href="#">Papers</a></li>
               </ul>
             </li>

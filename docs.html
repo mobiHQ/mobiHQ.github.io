@@ -1,0 +1,51 @@
+---
+layout: default
+title: M-MOBI - Grupo de Pesquisa
+---    
+    <div id="page" class="container">
+        <div class="row">
+            <div id="content" class="col-md-9">
+              <div class="row">
+                <h1>Produções</h1>
+                <p class="lead">lkklec nckenckenkckeckekcleklc ke</p>
+                <p>
+                    lkklec nckenckenkckeckekcleklc kelkklec nckenckenkckeckekcleklc ke
+                    lkklec nckenckenkckeckekcleklc kelkklec nckenckenkckeckekcleklc ke
+                    lkklec nckenckenkckeckekcleklc kelkklec nckenckenkckeckekcleklc ke
+                </p>
+              </div>
+              <div class="row">
+                <h1 id="thesis">Teses</h1>
+                <ul>
+                  {% for doc in site.data.thesis %}
+                    <li>Tese de {{ doc.type }}
+                      <ul>
+                        <li>Título: {{ doc.title}}</li>
+                        <li>Autor: {{ doc.author }}</li>
+                      </ul>
+                    </li>
+                  {% endfor %}
+                </ul>
+                <h1 id="tcc">Trabalhos de Conclusão de Curso</h1>
+                <ul>
+                  {% for doc in site.data.tccs %}
+                    <li>
+                      {{ doc.title}}
+                    </li>
+                  {% endfor %}
+                </ul>
+                <h1 id="article">Artigos</h1>
+                <ul>
+                  {% for doc in site.data.articles %}
+                    <li>
+                      {{ doc.title}}
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+            <div id="sidebar" class="col-md-3">
+                Sidebar
+            </div>
+        </div>
+        <hr>
