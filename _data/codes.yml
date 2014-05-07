@@ -1,7 +1,19 @@
-- name: Kernel M-MOBI
-  description: Kernel do Modelo de Ontologias Baseado em Instâncias
-  url: http://github.com/M-MOBI/Kernel-M-MOBI
+- name: mobi-core
+  description: Core do Modelo de Ontologias Baseado em Instâncias
+  url: http://github.com/mobiHQ/mobi-core
 
-- name: Editor M-MOBI
+- name: mobi-language
+  description: extensão que permite ao mobi inferir a partir da leitura de arquivo escrito na linguagem definida
+  url: http://github.com/mobiHQ/mobi-language
+
+- name: mobi-extension
+  description: extensão para exportação do domínio gerado pelo mobi para outros formatos
+  url: http://github.com/mobiHQ/mobi-extension
+
+- name: mobi-web-editor
   description: Editor de Ontologias baseado no M-MOBI
   url: http://github.com/vinioliveira/Editor-M-MOBI
+
+- name: mobi-samples
+  description: Diversos exemplos de utilização do MOBI
+  url: http://github.com/mobiHQ/mobi-samples
